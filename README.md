@@ -13,7 +13,7 @@
 - Listening to, discussing, and finding new music 🎵
 
 ### What I'm Currently Working On
-- Interning at Florida Blue as an application developer!
+- [University Capstone Project](https://github.com/COSC-499-W2025/capstone-project-team-18)
 ### Previous Projects
 - [Literary Quote Clock](https://github.com/alextaschuk/Literary-Quote-Clock): I built a clock using a Raspberry PI Zero 2WH and an e-paper screen that tells the time using quotes from books.
 - [Selectify](https://github.com/alextaschuk/selectify): A Flask app that will connect with your Spotify account and choose a random album from your saved albums list for you to listen to.
