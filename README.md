@@ -8,11 +8,7 @@ In my free time, I enjoy:
 - Listening to, discussing, and finding new music
 - Rock climbing
 
-## What I'm Currently Working On
-
-- Applying to software development roles!
-
-## Previous Projects
+## Projects
 
 **[Literary Quote Clock Rewrite](https://github.com/alextaschuk/Lit-Clock-Cpp-Rewrite)** | _C++_
 
