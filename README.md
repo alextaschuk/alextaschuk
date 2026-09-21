@@ -38,7 +38,7 @@ In my free time, I enjoy:
 **[Literary Quote Clock](https://github.com/alextaschuk/Literary-Quote-Clock)** | _Python_
 - A clock that tells the time using quotes from books using a Raspberry PI Zero 2WH and an e-paper display. The clock can be made using an IT8951 screen, a non-IT8951 screen, or a jailbroken Kindle.
 
-  <img width="600" src="https://github.com/user-attachments/assets/333b01cd-e19a-4ca5-90f1-0f52f9589530"/>
+ <img width="600" src="https://github.com/user-attachments/assets/b9857c63-bfdf-496d-ba85-337cea9d65de" />
 
 **[Selectify](https://github.com/alextaschuk/selectify) ([albumselector.com](https://albumselector.com))** | _Python_
 - A website that selects a random album for you to listen to from your saved albums on Spotify. The site was originally deployed locally via a reverse proxy, Gunicorn, and port forwarding; it was accessible to anyone, regardless of whether they were connected to my home network or not.
