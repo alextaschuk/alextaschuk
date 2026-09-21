@@ -18,6 +18,10 @@ In my free time, I enjoy:
 
 - A Rewrite of my Literary Quote Clock (originally written in Python) to familiarize myself with C++. This gave me more control over the formatting and layout of text on the screen, so text is more readable in this version compared to the Python clock.
 
+ <img width="600" src="https://github.com/user-attachments/assets/3f922768-398e-4a0d-a000-04cd4dbd8780" />
+
+
+
 **[TCP Congestion Anomaly Detection](https://github.com/alextaschuk/TCP-Congestion-Anomaly-Detection)** | _C_
 - Created a custom multithreaded transport-layer protocol that reimplements TCP's core functionality without the Berkeley sockets TCP stack (doesn't use TCP syscalls like `listen()`).
 - I trained a stacked LSTM on RTT/congestion timing data to predict imminent congestion events (triple ACKs/timeouts) before they occur.
