@@ -16,10 +16,11 @@ In my free time, I enjoy:
 
 **[Literary Quote Clock Rewrite](https://github.com/alextaschuk/Lit-Clock-Cpp-Rewrite)** | _C++_
 
-- A C++ Rewrite of my Literary Quote Clock (originally written in Python) to familiarize myself with the language. This gave me more control over the formatting and layout of text on the screen, so text is more readable in this version compared to the Python clock.
+- A Rewrite of my Literary Quote Clock (originally written in Python) to familiarize myself with C++. This gave me more control over the formatting and layout of text on the screen, so text is more readable in this version compared to the Python clock.
 
-**[TCP Congestion Anomaly Detection](https://github.com/alextaschuk/TCP-Congestion-Anomaly-Detection)** | _C_, _TensorFlow_, _Keras_
-- Created a custom multithreaded transport-layer protocol in C that reimplements TCP's core functionality without the Berkeley sockets TCP stack (doesn't use TCP syscalls like `listen()`). Then, I trained a stacked LSTM on RTT/congestion timing data to predict imminent congestion events (triple ACKs/timeouts) before they occur.
+**[TCP Congestion Anomaly Detection](https://github.com/alextaschuk/TCP-Congestion-Anomaly-Detection)** | _C_
+- Created a custom multithreaded transport-layer protocol that reimplements TCP's core functionality without the Berkeley sockets TCP stack (doesn't use TCP syscalls like `listen()`).
+- I trained a stacked LSTM on RTT/congestion timing data to predict imminent congestion events (triple ACKs/timeouts) before they occur.
 
 **[Clock-Based Text Detection using Deep Learning](https://github.com/alextaschuk/Clock-Based-Text-Detection)** | _Python_
 
@@ -34,18 +35,18 @@ In my free time, I enjoy:
  
   <img width="600" src="https://github.com/user-attachments/assets/0ce66e34-dd45-42ec-9dbf-fca80f226155" />
 
-**[Literary Quote Clock](https://github.com/alextaschuk/Literary-Quote-Clock)** | _Python_, _Raspberry PI_, _E-paper Display_
+**[Literary Quote Clock](https://github.com/alextaschuk/Literary-Quote-Clock)** | _Python_
 - A clock that tells the time using quotes from books using a Raspberry PI Zero 2WH and an e-paper display. The clock can be made using an IT8951 screen, a non-IT8951 screen, or a jailbroken Kindle.
 
   <img width="600" src="https://github.com/user-attachments/assets/333b01cd-e19a-4ca5-90f1-0f52f9589530"/>
 
-**[Selectify](https://github.com/alextaschuk/selectify) ([albumselector.com](https://albumselector.com))** | _Python_, _Nginx_, _Gunicorn_
+**[Selectify](https://github.com/alextaschuk/selectify) ([albumselector.com](https://albumselector.com))** | _Python_
 - A website that selects a random album for you to listen to from your saved albums on Spotify. The site was originally deployed locally via a reverse proxy, Gunicorn, and port forwarding; it was accessible to anyone, regardless of whether they were connected to my home network or not.
  
   <img width="600" src="https://github.com/ataschuk/selectify/assets/120518938/2f6190b4-eacb-4c83-b850-c9c388457c46"/>
 
 <!--## Languages
-Python, C, Java, JavaScript, R
+Python, C, C++, Java, JavaScript
 
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=alextaschuk&layout=compact&hide_progress=true&langs_count=3&theme=onedark)](https://github-stats-extended.vercel.app/api/top-langs?username=alextaschuk&layout=compact&hide_progress=true&langs_count=3&theme=onedark)-->
 
