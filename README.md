@@ -14,7 +14,7 @@ In my free time, I enjoy:
 
 - A Rewrite of my Literary Quote Clock (originally written in Python) to familiarize myself with C++. This gave me more control over the formatting and layout of text on the screen, so text is more readable in this version compared to the Python clock.
 
- <img width="600" src="https://github.com/user-attachments/assets/3f922768-398e-4a0d-a000-04cd4dbd8780" />
+ <img width="362" height="268" src="https://github.com/user-attachments/assets/3f922768-398e-4a0d-a000-04cd4dbd8780" />
 
 
 
