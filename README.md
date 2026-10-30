@@ -10,20 +10,21 @@ In my free time, I enjoy:
 
 ## Projects
 
-**[Literary Quote Clock Rewrite](https://github.com/alextaschuk/Lit-Clock-Cpp-Rewrite)** | _C++_
-- A rewrite of my Literary Quote Clock (originally written in Python) to familiarize myself with C++.
-- This version includes more intuitive text formatting and improves the vertical spacing of text, improving the readability of quotes compared to the Python clock.
+**[Literary Quote Clock (Rewrite)](https://github.com/alextaschuk/Lit-Clock-Cpp-Rewrite)** | _C++_
+- A clock that tells the time using quotes from books.
+- The clock was originally written in Python. I rewrote it in C++ to familiarize myself with the langauge. This version includes more intuitive text formatting and improves the vertical spacing of text, improving the readability of quotes compared to the Python clock.
+- Includes scripts to automate device setup, boot-time startup, and enable daily updates.
 
   <img width="362" height="268" src="https://github.com/user-attachments/assets/3f922768-398e-4a0d-a000-04cd4dbd8780" />
 
 
-**[TCP Congestion Anomaly Detection](https://github.com/alextaschuk/TCP-Congestion-Anomaly-Detection)** | _C_
+**[TCP Congestion Anomaly Detection](https://github.com/alextaschuk/TCP-Congestion-Anomaly-Detection)** | _C_, _TensorFlow_
 - A multi-threaded implementation of TCP that I made from scratch in C. It has connection management, reliable data transfer, flow control, and concurrent client-server communication.
 - Implemented Tahoe, Reno, and New Reno congestion control algorithms and retransmission mechanisms.
 - I designed and trained an LSTM to predict congestion events (triple ACKs/timeouts) before they occur.
 
 
-**[Clock-Based Text Detection using Deep Learning](https://github.com/alextaschuk/Clock-Based-Text-Detection)** | _Python_
+**[Clock-Based Text Detection using Deep Learning](https://github.com/alextaschuk/Clock-Based-Text-Detection)** | _Python_, _transformers_
 - Built and benchmarked two temporal-tagging pipelines for clock expressions like "half-past eight" in literary text:
   1. A fine-tuned BERT token classifier followed by GPT 5.4-mini as a filter for non-clock expressions.
   2. A fine-tuned RoBERTa seq2seq model on its own.
