@@ -1,18 +1,26 @@
 <h1 align="center">Hello, I'm Alex!</h1>
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) 
+
 I have a degree in computer science from UBC. While I was in school, I gained an interest in networking and backend systems. 
 
-In my free time, I enjoy:
+Outside of programming, I enjoy:
 
 - Reading
 - Listening to, discussing, and finding new music
 - Rock climbing
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/alextaschuk) 
+
 ## Projects
 
 **[Literary Quote Clock (Rewrite)](https://github.com/alextaschuk/Lit-Clock-Cpp-Rewrite)** | _C++_
 - A clock that tells the time using quotes from books.
-- The clock was originally written in Python. I rewrote it in C++ to familiarize myself with the langauge. This version includes more intuitive text formatting and improves the vertical spacing of text, improving the readability of quotes compared to the Python clock.
+- This version includes more intuitive text formatting and improves the vertical spacing of text, improving the readability of quotes compared to the Python clock.
 - Includes scripts to automate device setup, boot-time startup, and enable daily updates.
 
   <img width="362" height="268" src="https://github.com/user-attachments/assets/3f922768-398e-4a0d-a000-04cd4dbd8780" />
@@ -24,11 +32,11 @@ In my free time, I enjoy:
 - I designed and trained an LSTM to predict congestion events (triple ACKs/timeouts) before they occur.
 
 
-**[Clock-Based Text Detection using Deep Learning](https://github.com/alextaschuk/Clock-Based-Text-Detection)** | _Python_, _transformers_
-- Built and benchmarked two temporal-tagging pipelines for clock expressions like "half-past eight" in literary text:
-  1. A fine-tuned BERT token classifier followed by GPT 5.4-mini as a filter for non-clock expressions.
-  2. A fine-tuned RoBERTa seq2seq model on its own.
-- The pipelines were benchmarked on on three novels: The Great Gatsby, Frankenstein, and Moby-Dick.
+**[Clock-Related Text Detection in Novels with Deep Learning](https://github.com/alextaschuk/Clock-Based-Text-Detection)** | _Python_, _transformers_
+- A Python data-processing pipeline to identify clock-related temporal expressions (e.g., "half-past eight in the evening") in novels using fine-tuned transformer models.
+  1. Integrated a fine-tuned BERT token classifier with GPT-5.4 mini to filter non-clock-related temporal expressions and extract relevant sentence context.
+  2. A fine-tuned RoBERTa seq2seq model was on its own.
+- The multi-stage pipeline was benchmarked against the RoBERTa model to analyze the pipelines' precision and recall abilities against each other and their failure modes—including duplicate results from overlapping context windows and sentences dropped by each stage—to identify prompt and fine-tuning improvements.
 
 
 **[University Capstone Project](https://github.com/COSC-499-W2025/capstone-project-team-18)** | _Python_, _SQL_, _Electron_
