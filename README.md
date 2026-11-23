@@ -20,8 +20,9 @@ Outside of programming, I enjoy:
 
 **[Literary Quote Clock (Rewrite)](https://github.com/alextaschuk/Lit-Clock-Cpp-Rewrite)** | _C++_
 - A clock that tells the time using quotes from books.
-- This version includes more intuitive text formatting and improves the vertical spacing of text, improving the readability of quotes compared to the Python clock.
-- Includes scripts to automate device setup, boot-time startup, and enable daily updates.
+- Image generation on this version is significantly faster.
+- The custom text-rendering pipeline includes more intuitive text formatting and has more accurate vertical text spacing, improving the readability of quotes compared to the Python clock.
+- Includes scripts to automate installing and uninstalling the clock, boot-time startup, and enable daily updates.
 
   <img width="362" height="268" src="https://github.com/user-attachments/assets/3f922768-398e-4a0d-a000-04cd4dbd8780" />
 
@@ -29,7 +30,7 @@ Outside of programming, I enjoy:
 **[TCP Congestion Anomaly Detection](https://github.com/alextaschuk/TCP-Congestion-Anomaly-Detection)** | _C_, _TensorFlow_
 - A multi-threaded implementation of TCP that I made from scratch in C. It has connection management, reliable data transfer, flow control, and concurrent client-server communication.
 - Implemented Tahoe, Reno, and New Reno congestion control algorithms and retransmission mechanisms.
-- I designed and trained an LSTM to predict congestion events (triple ACKs/timeouts) before they occur.
+- Designed and trained an LSTM to predict congestion events (triple ACKs/timeouts) before they occur.
 
 
 **[Clock-Related Text Detection in Novels with Deep Learning](https://github.com/alextaschuk/Clock-Based-Text-Detection)** | _Python_, _transformers_
