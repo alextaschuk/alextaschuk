@@ -6,7 +6,7 @@
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) 
 
-I have a degree in computer science from UBC. While I was in school, I gained an interest in networking and backend systems. 
+I have a degree in computer science from UBC. While I was in school, I gained an interest in backend systems, machine learning, and networking. 
 
 Outside of programming, I enjoy:
 
@@ -14,7 +14,9 @@ Outside of programming, I enjoy:
 - Listening to, discussing, and finding new music
 - Rock climbing
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/alextaschuk) 
+<!--
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/alextaschuk)
+-->
 
 ## Projects
 
@@ -56,7 +58,8 @@ Outside of programming, I enjoy:
 
 
 **[Selectify](https://github.com/alextaschuk/selectify) ([albumselector.com](https://albumselector.com))** | _Python_
-- A website that selects a random album for you to listen to from your saved albums on Spotify. The site was originally deployed locally via a reverse proxy, Gunicorn, and port forwarding; it was accessible to anyone, regardless of whether they were connected to my home network or not.
+- A website that selects a random album from your saved albums on Spotify for you to listen to.
+- The site was originally deployed locally via a reverse proxy, Gunicorn, and port forwarding; it was accessible to anyone, regardless of whether they were connected to my home network or not.
  
   <img width="600" src="https://github.com/ataschuk/selectify/assets/120518938/2f6190b4-eacb-4c83-b850-c9c388457c46"/>
 
